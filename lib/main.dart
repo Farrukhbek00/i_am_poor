@@ -9,8 +9,8 @@ void main() => runApp(
             backgroundColor: Colors.cyanAccent,
           ),
           body: Center(
-              //child: Image(image: AssetImage()),
-              ),
+            child: Image(image: AssetImage('images/fade.png')),
+          ),
         ),
       ),
     );
